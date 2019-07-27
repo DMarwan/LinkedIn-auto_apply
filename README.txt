@@ -8,10 +8,9 @@ Requirements : selenium, Chromedriver stable release, a resume uploaded on Linke
 HOW TO : 
 
 Firstly, download scrape_linkedin.py.
-Then open a jupyter notebook instance in the same folder as scrape_linkedin.py and write in a cell (or put in a script) the following :
+Then, open a jupyter notebook instance in the same folder as scrape_linkedin.py and write in a cell (or put in a script in the same folder) the following :
 
-from scrape_linkedin import * 
-
+from scrape_linkedin import scraper
 scraper(mail, password, job, location) #replace the arguments
 
 
