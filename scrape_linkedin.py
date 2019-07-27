@@ -1,7 +1,13 @@
 ##It may fail sometimes. Feel free to adapt to your own need
 ## @author {DARWISH Marwan, https://github.com/DMarwan, https://www.linkedin.com/in/dmarwan/}
 
+
+
 def scraper(mail, password, job, location):
+    from selenium import webdriver
+    from selenium.webdriver.common.keys import Keys
+    import time
+
     browser = webdriver.Chrome('/usr/bin/chromedriver')
     browser.get('https://www.linkedin.com/login?trk=guest_homepage-basic_nav-header-signin')
     login = browser.find_element_by_xpath('//*[@id="username"]').send_keys(mail)
