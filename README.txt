@@ -11,6 +11,7 @@ Firstly, download scrape_linkedin.py.
 Then open a jupyter notebook instance in the same folder as scrape_linkedin.py and write in a cell (or put in a script) the following :
 
 from scrape_linkedin import * 
+
 scraper(mail, password, job, location) #replace the arguments
 
 
