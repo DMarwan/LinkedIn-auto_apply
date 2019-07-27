@@ -1,4 +1,5 @@
 ##It may fail sometimes. Feel free to adapt to your own need
+## @author {DARWISH Marwan, https://github.com/DMarwan, https://www.linkedin.com/in/dmarwan/}
 
 def scraper(mail, password, job, location):
     browser = webdriver.Chrome('/usr/bin/chromedriver')
