@@ -13,7 +13,9 @@ Then, open a jupyter notebook instance in the same folder as scrape_linkedin.py 
 from scrape_linkedin import scraper
 scraper(mail, password, job, location) #replace the arguments
 
+That's it.
 
+Disclaimer : use at your own risk, I am not responsible for any account ban from LinkedIn (even if that's not illegal, of course).
 
-PS : Use it at your own risk, I am not responsible for any account ban from LinkedIn (even if that's not illegal, of course).
-
+PS : You may have to change the path for the chromedriver, and will have to if you are not using a Linux distribution.
+I haven't tested with another driver, it should work though.
